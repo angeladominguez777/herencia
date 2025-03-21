@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones.cs" />
-    <Compile Include="Alumno.cs" />
-    <Compile Include="Persona.cs" />
+    <Compile Include="ControllerVehiculo.cs" />
+    <Compile Include="VehiculoCamion.cs" />
+    <Compile Include="VehiculoCoche.cs" />
+    <Compile Include="BaseVehiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

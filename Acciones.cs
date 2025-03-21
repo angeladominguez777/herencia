@@ -8,12 +8,12 @@ namespace arbol
 {
     internal class Acciones
     {
-        private List<Alumno> lista = new List<Alumno>();
-        Alumno a = new Alumno();
+        private List<VehiculoCoche> lista = new List<VehiculoCoche>();
+        VehiculoCoche a = new VehiculoCoche();
 
         public void AddStudent()
         {
-            lista.Add(new Alumno(a.Nombre,a.Edad,a.Genero,a.Matricula,a.Carrera));
+            lista.Add(new VehiculoCoche(a.Nombre,a.Edad,a.Genero,a.Matricula,a.Carrera));
         }
     }
 }
